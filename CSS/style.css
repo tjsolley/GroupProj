@@ -4,6 +4,14 @@
   position: relative;
 }
 
+.logo {
+  image-rendering: auto;
+  float: left;
+  display: block;
+  height: 13vh;
+  width: 15vw;
+}
+
 html,
 body {
   height: 100vh;
@@ -12,7 +20,7 @@ body {
 
 h2 {
   text-align: center;
-  color: #f1f1f1;
+  color: orangered;
   padding: 20px 0px 15px 0px;
 }
 
@@ -48,10 +56,13 @@ a {
 .main-footer {
   height: 75px;
   width: 100vw;
-  background-color: rgb(114, 84, 50);
+  background-color: #ffffff;
 }
 
 .logo-text {
+  color: orangered;
+  text-align: center;
+  margin-left: 20px;
   display: block;
   padding: 20px;
   font-weight: bold;
@@ -63,10 +74,15 @@ a {
   width: 90vw;
   margin: 0px auto;
 }
+.background-image {
+  overflow: auto;
+  width: 100vw;
+  height: 100vh;
+}
 
 .top-section {
   width: 100%;
-  background-color: rgb(8, 83, 20);
+  background-color: rgb(33, 117, 47);
   height: 210px;
   margin: 10px 0px;
   overflow: hidden;
