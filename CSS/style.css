@@ -20,7 +20,7 @@ body {
 
 h2 {
   text-align: center;
-  color: #f1f1f1;
+  color: orangered;
   padding: 20px 0px 15px 0px;
 }
 
@@ -73,6 +73,11 @@ a {
   height: calc(100vh - 150px);
   width: 90vw;
   margin: 0px auto;
+}
+.background-image {
+  overflow: auto;
+  width: 100vw;
+  height: 100vh;
 }
 
 .top-section {
