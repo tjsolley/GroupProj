@@ -20,7 +20,7 @@ body {
 
 h2 {
   text-align: center;
-  color: orangered;
+  color: rgb(240,89,68);
   padding: 20px 0px 15px 0px;
 }
 
@@ -48,19 +48,16 @@ a {
   transform: scale(1.1);
 }
 
-.main-body-container {
-  background-image: url('../img/BG.jpeg');
-}
 
 .main-header,
 .main-footer {
-  height: 75px;
+  height: 80px;
   width: 100vw;
   background-color: #ffffff;
 }
 
 .logo-text {
-  color: orangered;
+  color: rgb(240,89,68);
   text-align: center;
   margin-left: 20px;
   display: block;
@@ -74,15 +71,9 @@ a {
   width: 90vw;
   margin: 0px auto;
 }
-.background-image {
-  overflow: auto;
-  width: 100vw;
-  height: 100vh;
-}
-
 .top-section {
   width: 100%;
-  background-color: rgb(33, 117, 47);
+  background-color: rgb(75,129,113);
   height: 210px;
   margin: 10px 0px;
   overflow: hidden;
@@ -116,22 +107,6 @@ a {
   display: block;
   width: 190px;
   margin: 10px;
-}
-
-.sidebar>ul {
-  list-style-type: none;
-}
-
-.sidebar>ul>li>a {
-  padding: 15px 20px;
-  display: block;
-  background-color: #CCC;
-  border: 1px solid #f1f1f1;
-  transition-duration: 0.5s;
-}
-
-.sidebar>ul>li a:hover {
-  background-color: rgb(231, 244, 248);
 }
 
 .gallery-container {
