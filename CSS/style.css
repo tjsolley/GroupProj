@@ -24,6 +24,13 @@ h2 {
   color: rgb(240,89,68);
   padding: 20px 0px 15px 0px;
 }
+h3 {
+  background-color: rgb(75,129,113);
+  color:#FFFFFF;
+}
+.product_header {
+  background-color: rgb(75,129,113);
+}
 
 p {
   color: #FFFFFF;
@@ -94,12 +101,12 @@ a {
   font-family: 'Roboto Slab', serif;
 }
 
-
 .gallery {
   height: 100%;
   padding: 0px 1em;
   overflow: auto;
 }
+
 
 .pic-container {
   height: 100%;
@@ -115,7 +122,10 @@ a {
 }
 
 .gallery-container {
-  list-style-type: none;
+  grid-gap: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   text-align: center;
 }
 
