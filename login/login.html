@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Cafe site</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body class="main-body-container">
+    <div style="background-image: url(../imgs/Background.jpeg);">
+        <header class="main-header box-shadow">
+            <div class="logo">
+                <img src="../imgs/Logo.png" class="logo" alt="MexBros">
+            </div>
+            <span class="logo-text">
+                Welcome to MexBros.com!
+            </span>
+        </header>
+        <section class="main-container">
+            <div>
+                <form class="contact-form">
+                  <input placeholder="Username" type="text" id="username" class="contact-input">
+                  <input placeholder="Password" type="password" id="password" class="contact-input">
+                  <button onclick="login.login()" class=" btn btn-success submit-button" type="button">Login</button>
+                  <span id="error-box" class="error-message">Error Here</span>
+                </form>
+              </div>
+    </div>
+    </section>
+    <footer class="main-footer">
+        <span class="footer-text">Copyright (C) 2021. Created by Tyler Solley, Octavio Campos, and Estevan Romero.</span>
+    </footer>
+    <script type="text/javascript" src="./login.js"></script>
+</body>
+
+</html>
