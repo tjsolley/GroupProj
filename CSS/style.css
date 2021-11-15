@@ -1,4 +1,5 @@
 * {
+  overflow: scroll;
   margin: 0px;
   padding: 0px;
   position: relative;
@@ -25,6 +26,8 @@ h2 {
 }
 
 p {
+  color: #FFFFFF;
+  padding-left: 10px;
   margin: 10px 0px;
 }
 
@@ -68,14 +71,13 @@ a {
 
 .main-container {
   height: calc(100vh - 150px);
-  width: 90vw;
   margin: 0px auto;
 }
 .top-section {
-  width: 100%;
+  width: 1250px;
   background-color: rgb(75,129,113);
   height: 210px;
-  margin: 10px 0px;
+  margin: 10px 10px;
   overflow: hidden;
 }
 
@@ -87,6 +89,9 @@ a {
   width: 100%;
   height: 70%;
   background-color: #f1f1f1;
+}
+.description {
+  font-family: 'Roboto Slab', serif;
 }
 
 
