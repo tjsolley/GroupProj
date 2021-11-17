@@ -9,8 +9,8 @@
   image-rendering: auto;
   float: left;
   display: block;
-  height: 12vh;
-  width: 15vw;
+  height: 13vh;
+  width: 13vw;
 }
 
 html,
@@ -25,6 +25,8 @@ h2 {
   padding: 20px 0px 15px 0px;
 }
 h3 {
+  margin-left: 5em;
+  width: 200px;
   background-color: rgb(75,129,113);
   color:#FFFFFF;
 }
@@ -39,7 +41,6 @@ p {
 }
 
 a {
-  content: normal;
   text-decoration: none;
   font-weight: bold;
 }
@@ -48,7 +49,6 @@ a {
   -webkit-box-shadow: 0px 1px 9px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 1px 9px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 1px 9px -1px rgba(0, 0, 0, 0.75);
-
 }
 
 .grow {
@@ -60,9 +60,13 @@ a {
 }
 
 
-.main-header,
-.main-footer {
+.main-header {
   height: 80px;
+  width: 100vw;
+  background-color: #ffffff;
+}
+.main-footer {
+  height: 50px;
   width: 100vw;
   background-color: #ffffff;
 }
@@ -147,21 +151,6 @@ a {
   padding: 0px 1em;
   overflow: auto;
 }
-
-
-.pic-container {
-  height: 100%;
-  float: left;
-  margin-right: 20px;
-}
-
-.pic-container>img {
-  object-fit: cover;
-  display: block;
-  width: 190px;
-  margin: 10px;
-}
-
 .gallery-container {
   grid-gap: 1em;
   display: grid;
@@ -184,5 +173,5 @@ a {
 .footer-text {
   text-align: center;
   display: block;
-  padding: 20px;
+  padding-top: 30px;
 }
