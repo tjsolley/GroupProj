@@ -30,6 +30,7 @@ h3 {
   background-color: rgb(75,129,113);
   color:#FFFFFF;
 }
+
 .product_header {
   background-color: rgb(75,129,113);
 }
@@ -93,11 +94,10 @@ a {
   overflow: hidden;
 }
 .contact-info {
-  width: 1250px;
-  background-color: rgb(75,129,113);
+  width: 1000px;
   height: 500px;
-  margin: 10px 15px;
-  overflow: hidden;
+  margin: 10px 10px 20px 75px;
+  overflow: auto;
 }
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -113,7 +113,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: rgb(240,89,68);
   color: white;
   padding: 12px 20px;
   border: none;
@@ -123,14 +123,14 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: rgb(241, 62, 38);
 }
 
 /* Add a background color and some padding around the form */
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+.contact-info {
+  border-radius: 15px;
+  background-color: rgb(75,129,113);
+  padding: 30px;
 }
 
 .top-inner-section {
