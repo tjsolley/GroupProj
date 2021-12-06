@@ -1,4 +1,5 @@
 * {
+  overflow: scroll;
   margin: 0px;
   padding: 0px;
   position: relative;
@@ -9,7 +10,7 @@
   float: left;
   display: block;
   height: 13vh;
-  width: 15vw;
+  width: 13vw;
 }
 
 html,
@@ -20,11 +21,23 @@ body {
 
 h2 {
   text-align: center;
-  color: orangered;
+  color: rgb(240,89,68);
   padding: 20px 0px 15px 0px;
+}
+h3 {
+  margin-left: 93px;
+  width: 200px;
+  background-color: rgb(75,129,113);
+  color:#FFFFFF;
+}
+
+.product_header {
+  background-color: rgb(75,129,113);
 }
 
 p {
+  color: #FFFFFF;
+  padding-left: 25px;
   margin: 10px 0px;
 }
 
@@ -37,7 +50,6 @@ a {
   -webkit-box-shadow: 0px 1px 9px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 1px 9px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 1px 9px -1px rgba(0, 0, 0, 0.75);
-
 }
 
 .grow {
@@ -48,19 +60,20 @@ a {
   transform: scale(1.1);
 }
 
-.main-body-container {
-  background-image: url('../img/BG.jpeg');
-}
 
-.main-header,
+.main-header {
+  height: 80px;
+  width: 100vw;
+  background-color: #ffffff;
+}
 .main-footer {
-  height: 75px;
+  height: 50px;
   width: 100vw;
   background-color: #ffffff;
 }
 
 .logo-text {
-  color: orangered;
+  color: rgb(240,89,68);
   text-align: center;
   margin-left: 20px;
   display: block;
@@ -71,71 +84,118 @@ a {
 
 .main-container {
   height: calc(100vh - 150px);
-  width: 90vw;
   margin: 0px auto;
 }
-.background-image {
+.top-section {
+  width: 1250px;
+  background-color: rgb(75,129,113);
+  height: 210px;
+  margin: 10px 10px;
+  overflow: hidden;
+}
+.contact-info {
+  width: 1000px;
+  height: 500px;
+  margin: 10px 10px 20px 75px;
   overflow: auto;
-  width: 100vw;
-  height: 100vh;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-.top-section {
-  width: 100%;
-  background-color: rgb(33, 117, 47);
-  height: 210px;
-  margin: 10px 0px;
-  overflow: hidden;
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: rgb(240,89,68);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: rgb(241, 62, 38);
+}
+
+/* Add a background color and some padding around the form */
+.contact-info {
+  border-radius: 15px;
+  background-color: rgb(75,129,113);
+  padding: 30px;
 }
 
 .top-inner-section {
   overflow: auto;
 }
+.icons {
+  margin-left: 400px;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
 
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+/* Instagram */
+.fa-instagram {
+  background: #d40051;
+  color: white;
+}
+/* SnapChat */
+ .fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 .bottom-section {
   width: 100%;
   height: 70%;
   background-color: #f1f1f1;
 }
-
+.description {
+  font-family: 'Roboto Slab', serif;
+}
 
 .gallery {
   height: 100%;
   padding: 0px 1em;
   overflow: auto;
 }
-
-.pic-container {
-  height: 100%;
-  float: left;
-  margin-right: 20px;
-}
-
-.pic-container>img {
-  object-fit: cover;
-  display: block;
-  width: 190px;
-  margin: 10px;
-}
-
-.sidebar>ul {
-  list-style-type: none;
-}
-
-.sidebar>ul>li>a {
-  padding: 15px 20px;
-  display: block;
-  background-color: #CCC;
-  border: 1px solid #f1f1f1;
-  transition-duration: 0.5s;
-}
-
-.sidebar>ul>li a:hover {
-  background-color: rgb(231, 244, 248);
-}
-
 .gallery-container {
-  list-style-type: none;
+  grid-gap: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   text-align: center;
 }
 
@@ -153,5 +213,5 @@ a {
 .footer-text {
   text-align: center;
   display: block;
-  padding: 20px;
+  padding-top: 30px;
 }
