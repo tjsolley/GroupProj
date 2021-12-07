@@ -8,15 +8,14 @@
     image-rendering: auto;
     float: left;
     display: block;
-    height: 10vh;
-    width: 10vw;
-    /* object-fit: contain; */
+    height: auto;
+    width: 11vw;
   }
   
   html,
   body {
     height: 100vh;
-    overflow: hidden;
+    
   }
   
   h2 {
@@ -24,8 +23,20 @@
     color: rgb(240,89,68);
     padding: 20px 0px 15px 0px;
   }
+  h3 {
+    margin-left: 93px;
+    width: 200px;
+    background-color: rgb(75,129,113);
+    color:#FFFFFF;
+  }
+  
+  .product_header {
+    background-color: rgb(75,129,113);
+  }
   
   p {
+    color: #FFFFFF;
+    padding-left: 25px;
     margin: 10px 0px;
   }
   
@@ -38,7 +49,6 @@
     -webkit-box-shadow: 0px 1px 9px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 1px 9px -1px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 1px 9px -1px rgba(0, 0, 0, 0.75);
-  
   }
   
   .grow {
@@ -50,10 +60,14 @@
   }
   
   
-  .main-header,
-  .main-footer {
+  .main-header {
     height: 80px;
     width: 100vw;
+    background-color: #ffffff;
+  }
+  .main-footer {
+    height: 10px;
+    width: auto;
     background-color: #ffffff;
   }
   
@@ -69,49 +83,117 @@
   
   .main-container {
     height: calc(100vh - 150px);
-    width: 90vw;
     margin: 0px auto;
+    overflow: auto;
   }
   .top-section {
-    width: 100%;
+    width: 1250px;
     background-color: rgb(75,129,113);
     height: 210px;
-    margin: 10px 0px;
+    margin: 10px 10px;
     overflow: hidden;
+  }
+  .contact-info {
+    width: 1000px;
+    margin: 10px 10px 20px 75px;
+    overflow: inherit;
+  }
+  /* Style inputs with type="text", select elements and textareas */
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: rgb(240,89,68);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: rgb(241, 62, 38);
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contact-info {
+    border-radius: 15px;
+    background-color: rgb(75,129,113);
+    padding: 30px;
   }
   
   .top-inner-section {
     overflow: auto;
   }
+  .icons {
+    margin-left: 400px;
+  }
+  /* Style all font awesome icons */
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
   
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  /* Instagram */
+  .fa-instagram {
+    background: #d40051;
+    color: white;
+  }
+  /* SnapChat */
+   .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
   .bottom-section {
     width: 100%;
     height: 70%;
     background-color: #f1f1f1;
   }
-  
+  .description {
+    font-family: 'Roboto Slab', serif;
+  }
   
   .gallery {
-    height: 100%;
+    height: auto;
     padding: 0px 1em;
-    overflow: auto;
   }
-  
-  .pic-container {
-    height: 100%;
-    float: left;
-    margin-right: 20px;
-  }
-  
-  .pic-container>img {
-    object-fit: cover;
-    display: block;
-    width: 190px;
-    margin: 10px;
-  }
-  
   .gallery-container {
-    list-style-type: none;
+    grid-gap: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     text-align: center;
   }
   
@@ -129,30 +211,5 @@
   .footer-text {
     text-align: center;
     display: block;
-    padding: 20px;
-  }
-  
-  .contact-form {
-    width: 500px;
-    height: 500px;
-    margin: 100px auto;
-  }
-  .contact-input {
-    width: 91%;
-    padding: 15px;
-    margin: 5px;
-  }
-  .submit-button {
-    padding: 10px 25px;
-    background-color:#CCC;
-    float:right;
-    margin-top: 12px;
-  }
-  
-  .error-message {
-      color: red;
-      display: block;
-      margin-top: 5px;
-      padding: 7px;
-      display: none;
+    padding-top: 15px;
   }
