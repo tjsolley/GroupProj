@@ -1,0 +1,12 @@
+.logo {
+    image-rendering: auto;
+    display: block;
+    height: 75px;
+    width: 115px;
+    /* object-fit: contain; */
+  }
+
+  .main-body-container {
+    background-image: url(./imgs/coffee_background.jpg);
+    background-size: cover;
+  }

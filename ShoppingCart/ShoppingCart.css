@@ -2,16 +2,50 @@ body{
 	margin: 0;
 	padding: 0;
 	/* background: linear-gradient(to bottom right, rgb(75,129,113),rgb(75,129,113)); */
-    background-image: url(../imgs/Background.jpeg);
+    background-image: url(../imgs/coffee_background.jpg);
+	background-size: cover;
 	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
+.home-main-nav {
+	padding-top: 25px;
+	position: fixed;
+	top: 0;
+	left: 0;
+  }
+  
+  .home-main-nav > ul {
+	list-style-type: none;
+  }
+  
+  .home-main-nav > ul > li {
+	display: inline;
+	font-size: 1.75em;
+  }
+  
+  .home-main-nav > ul > li > a {
+	color: beige;
+	text-decoration: none;
+	padding: 15px .5em;
+	text-shadow: 2px 2px 3px black;
+  }
+  
+  .home-main-nav > ul > li:first-child a:hover {
+	background-color: transparent;
+	color: green;
+  }
+  
+  .home-main-nav > ul > li > a:hover {
+	background-color: transparent;
+	color: green;
+  }
+
 .CartContainer{
 	width: 70%;
-	height: 90%;
+	height: 70%;
 	/* background-color: #ffffff; */
     background: linear-gradient(to bottom right, rgb(209, 253, 240),rgb(102, 156, 140));
     border-radius: 20px;

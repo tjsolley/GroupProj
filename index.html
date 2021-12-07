@@ -7,22 +7,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist\bootstrap-5.1.3-dist\css\bootstrap.rtl.min.css">
 </head>
 
 <body class="main-body-container">
-    <div style="background-image: url(./imgs/Background.jpeg);">
+    <!-- <div style="background-image: url(./imgs/coffee_background.jpg), height: 100%; "> -->
         <header class="main-header">
-            <div class="logo">
+            <!-- <span class="logo-text">
+                Welcome to MexBros.com!
+            </span> -->
+            <div>
                 <img src="./imgs/Logo.png" class="logo" alt="MexBros">
             </div>
-            <span class="logo-text">
-                Welcome to MexBros.com!
-            </span>
-            <li>
-                <a href="./Contact.html">Contact Us</a>
-            </li>
         </header>
         <section class="main-container">
+            <nav class="home-main-nav">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./login/login.html">Login</a>
+                    </li>
+                    <li>
+                        <a href="./ShoppingCart/ShoppingCart.html">Cart</a>
+                    </li>
+                    <li>
+                        <a href="./Contact/Contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
             <div class="top-section box-shadow">
                 <div class="top-inner-section">
                     <div class="bio-description">
@@ -33,7 +47,7 @@
                             We source our coffee beans from Oaxaca, and we use them in all our products.
                             Please enjoy all our coffee products and introduce yourself to true Mexican coffee!
                         </p>
-                        <div class="icons">
+                        <div class="icons center">
                             <!-- Add icon library -->
                             <link rel="stylesheet"
                                 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -52,37 +66,37 @@
                     <li class="gallery-item">
                         <img class="box-shadow grow" src="./imgs/coffee_1.png" alt="item1">
                         <a href="./Product_Pages/Regular_Coffee.html">
-                            <h3>Regular Coffee</h3>
+                            <h3 class="product_header">Regular Coffee</h3>
                         </a>
                     </li>
                     <li class="gallery-item">
                         <img class="box-shadow grow" src="./imgs/coffee_beans.png" alt="item2">
                         <a href="./Product_Pages/Coffee_Beans.html">
-                            <h3>Coffee Beans</h3>
+                            <h3 class="product_header">Coffee Beans</h3>
                         </a>
                     </li>
                     <li class="gallery-item">
                         <img class="box-shadow grow" src="./imgs/Coffee_Milkshake.jpeg" alt="item3">
                         <a href="./Product_Pages/Frappuccino.html">
-                            <h3>Frappuccino</h3>
+                            <h3 class="product_header">Frappuccino</h3>
                         </a>
                     </li>
                     <li class="gallery-item">
                         <img class="box-shadow grow" src="./imgs/Dark_espresso.webp" alt="item4">
                         <a href="./Product_Pages/Espresso.html">
-                            <h3>Espresso</h3>
+                            <h3 class="product_header">Espresso</h3>
                         </a>
                     </li>
                     <li class="gallery-item">
                         <img class="box-shadow grow" src="./imgs/macchiato.webp" alt="item5">
                         <a href="./Product_Pages/Macchiato.html">
-                            <h3>Macchiato</h3>
+                            <h3 class="product_header">Macchiato</h3>
                         </a>
                     </li>
                     <li class="gallery-item">
                         <img class="box-shadow grow" src="./imgs/americano.jpeg" alt="item6">
                         <a href="./Product_Pages/Americano.html">
-                            <h3>Americano</h3>
+                            <h3 class="product_header">Americano</h3>
                         </a>
                     </li>
                 </ul>
