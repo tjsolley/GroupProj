@@ -1,5 +1,4 @@
 * {
-  overflow: scroll;
   margin: 0px;
   padding: 0px;
   position: relative;
@@ -9,14 +8,14 @@
   image-rendering: auto;
   float: left;
   display: block;
-  height: 13vh;
-  width: 13vw;
+  height: auto;
+  width: 11vw;
 }
 
 html,
 body {
   height: 100vh;
-  overflow: hidden;
+  
 }
 
 h2 {
@@ -67,8 +66,8 @@ a {
   background-color: #ffffff;
 }
 .main-footer {
-  height: 50px;
-  width: 100vw;
+  height: 10px;
+  width: auto;
   background-color: #ffffff;
 }
 
@@ -85,6 +84,7 @@ a {
 .main-container {
   height: calc(100vh - 150px);
   margin: 0px auto;
+  overflow: auto;
 }
 .top-section {
   width: 1250px;
@@ -95,9 +95,8 @@ a {
 }
 .contact-info {
   width: 1000px;
-  height: 500px;
   margin: 10px 10px 20px 75px;
-  overflow: auto;
+  overflow: inherit;
 }
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -187,9 +186,8 @@ input[type=submit]:hover {
 }
 
 .gallery {
-  height: 100%;
+  height: auto;
   padding: 0px 1em;
-  overflow: auto;
 }
 .gallery-container {
   grid-gap: 1em;
@@ -213,5 +211,5 @@ input[type=submit]:hover {
 .footer-text {
   text-align: center;
   display: block;
-  padding-top: 30px;
+  padding-top: 15px;
 }
