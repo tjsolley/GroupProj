@@ -1,4 +1,5 @@
 * {
+  overflow: scroll;
     margin: 0px;
     padding: 0px;
     position: relative;
@@ -19,9 +20,11 @@
     overflow: hidden;
   }
   h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
       color: white;
-      padding-top: 30px;
-      margin-left: 70px;
+      padding-top: 40px;
+      margin-left: 80px;
   }
   
   h2 {
@@ -71,6 +74,7 @@
       width: 100vw;
   }
   .reg_coffee {
+    float: left;
       margin-left: 30px;
       margin-bottom: 30px;
       margin-top: 30px;
@@ -80,10 +84,12 @@
   .description {
       margin-right: 20px;
       padding-top: 40px;
-      padding-right: 650px;
+      padding-right: 50px;
       float: right;
   }
   p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
       padding: 10px;
       color: white;
   }
