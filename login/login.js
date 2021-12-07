@@ -6,7 +6,7 @@ var Login = /** @class */ (function () {
         var passwordInput = document.getElementById('password');
         var username = usernameInput.value;
         var password = passwordInput.value;
-        if (username === 'ocampos' && password === 'abc123') {
+        if (username === 'CoffeeBros' && password === 'abc123') {
             this.goToHome();
         }
         else {
@@ -23,7 +23,7 @@ var Login = /** @class */ (function () {
         }, 5000);
     };
     Login.prototype.goToHome = function () {
-        window.location.href = "../home.html";
+        window.location.href = "../index.html";
     };
     return Login;
 }());
