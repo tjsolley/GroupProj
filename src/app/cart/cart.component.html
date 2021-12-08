@@ -1,0 +1,86 @@
+<div class="main-body-container">
+    <!-- <div style="background-image: url(./imgs/coffee_background.jpg), height: 100%; "> -->
+        <header class="main-header">
+            <!-- <span class="logo-text">
+                Welcome to MexBros.com!
+            </span> -->
+            <div>
+                <img src="../../assets/imgs/Logo.png" class="logo" alt="MexBros">
+            </div>
+        </header>
+        <section class="main-container">
+            <nav class="home-main-nav">
+                <ul>
+                    <li>
+                        <a [routerLink]="''">Home</a>
+                    </li>
+                    <li>
+                        <a [routerLink]="'/login'">Login</a>
+                    </li>
+                    <li>
+                        <a [routerLink]="'/cart'">Cart</a>
+                    </li>
+                    <li>
+                        <a [routerLink]="'/contact'">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="CartContainer">
+                <div class="Header">
+                    <h3 class="Heading">Shopping Cart</h3>
+                    <h5 class="Action">Remove all</h5>
+                </div>
+      
+                <div class="Cart-Items">
+                      <div class="image-box">
+                          <img class="image-box" src="../../assets/imgs/americano.jpeg"/>
+                      </div>
+                      <div class="about">
+                          <h1 class="title">Americano</h1>
+                      </div>
+                      <div class="counter">
+                          <div class="btn">+</div>
+                          <div class="count">2</div>
+                          <div class="btn">-</div>
+                      </div>
+                      <div class="prices">
+                          <div class="amount">$4.99</div>
+                          <div class="save"><u>Save for later</u></div>
+                          <div class="remove"><u>Remove</u></div>                                
+                      </div>
+                </div>
+      
+                <div class="Cart-Items">
+                      <div class="image-box">
+                          <img class="image-box" src="../../assets/imgs/macchiato.webp"/>
+                      </div>
+                      <div class="about">
+                          <h1 class="title">Macchiato</h1>
+                      </div>
+                      <div class="counter">
+                          <div class="btn">+</div>
+                          <div class="count">1</div>
+                          <div class="btn">-</div>
+                      </div>
+                      <div class="prices">
+                          <div class="amount">$3.99</div>
+                          <div class="save"><u>Save for later</u></div>
+                          <div class="remove"><u>Remove</u></div>                                
+                      </div>
+                </div>
+              <hr> 
+              <div class="checkout">
+              <div class="total">
+                  <div>
+                      <div class="Subtotal">Sub-Total</div>
+                      <div class="items">2 items</div>
+                  </div>
+                  <div class="total-amount">$8.98</div>
+              </div>
+              <button class="button">Checkout</button></div>
+         </div>
+    </section>
+    <footer class="main-footer">
+        <span class="footer-text">Copyright (C) 2021. Created by Tyler Solley, Octavio Campos, and Estevan Romero.</span>
+    </footer>
+</div>

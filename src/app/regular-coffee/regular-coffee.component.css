@@ -1,0 +1,22 @@
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+    font-size: 30px;
+    color: beige;
+    font-weight: bold;
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.product-image {
+    width: 640px;
+    height: 480px;
+}
+
+

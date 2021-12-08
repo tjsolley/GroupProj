@@ -1,1 +1,235 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .logo {
+    image-rendering: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 140px;
+    /* object-fit: contain; */
+  }
+  
+  /* .background-image {
+    background-image: url(./imgs/coffee_background.jpg);
+    max-width: 100%;
+    max-height: 100%;
+  } */
+  
+  .main-body-container {
+    background-image: url(./assets/imgs/coffee_background.jpg);
+    background-size: cover;
+  }
+  
+  html,
+  body {
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  h2 {
+    text-align: center;
+    color: green;
+    padding: 20px 0px 15px 0px;
+  }
+  
+  p {
+    margin: 10px 0px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .box-shadow {
+    -webkit-box-shadow: 0px 1px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 9px -1px rgba(0, 0, 0, 0.75);
+  }
+  
+  .grow {
+    transition: all .2s ease-in-out;
+  }
+  
+  .grow:hover {
+    transform: scale(1.1);
+  }
+  
+  .home-main-nav {
+    padding-top: 25px;
+  }
+  
+  .home-main-nav > ul {
+    list-style-type: none;
+  }
+  
+  .home-main-nav > ul > li {
+    display: inline;
+    font-size: 1.75em;
+  }
+  
+  .home-main-nav > ul > li > a {
+    color: beige;
+    text-decoration: none;
+    padding: 15px .5em;
+    text-shadow: 2px 2px 3px black;
+  }
+  
+  .home-main-nav > ul > li:first-child a:hover {
+    background-color: transparent;
+    color: green;
+  }
+  
+  .home-main-nav > ul > li > a:hover {
+    background-color: transparent;
+    color: green;
+  }
+
+  .bio-description {
+      text-align: center;
+      font-size: 30px;
+  }
+  
+  .description {
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .main-header {
+    height: 75px;
+    width: 100vw;
+    /* background-color: beige; */
+  }
+  
+  .main-footer {
+    height: 50px;
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+    background-color: beige;
+    margin-bottom: 0px;
+  }
+  
+  .logo-text {
+    color: beige;
+    text-align: center;
+    display: block;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .main-container {
+    height: calc(100vh - 75px);
+    width: 90vw;
+    margin: 0px auto;
+  }
+  
+  .product_header {
+    color: beige;
+    font-size: 30px;
+    padding-top: 5px;
+    text-decoration: none;
+  }
+  .top-section {
+    width: 100%;
+    background-color: beige;
+    height: 220px;
+    margin: 10px 0px;
+    overflow: hidden;
+  }
+  
+  .top-inner-section {
+    overflow: auto;
+  }
+  
+  .bottom-section {
+    width: 100%;
+    height: 70%;
+    background-color: #f1f1f1;
+  }
+  
+  
+  .gallery {
+    height: 100%;
+    padding: 0px 1em;
+    overflow: auto;
+  }
+  
+  .pic-container {
+    height: 100%;
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .pic-container>img {
+    object-fit: cover;
+    display: block;
+    width: 190px;
+    margin: 10px;
+  }
+  
+  .gallery-container {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  .gallery-container>li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .gallery-container>li>img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .footer-text {
+    text-align: center;
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+  }
+  
+  .contact-form {
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+  }
+  .contact-input {
+    width: 91%;
+    padding: 15px;
+    margin: 5px;
+  }
+  .submit-button {
+    padding: 10px 25px;
+    background-color:#CCC;
+    float:right;
+    margin-top: 12px;
+  }
+  
+  .error-message {
+      color: red;
+      display: block;
+      margin-top: 5px;
+      padding: 7px;
+      display: none;
+  }
+  .giphy {
+    padding-left: 40%;
+  }
+
+  .fa,
+  h3 {
+    text-decoration: none;
+  }

@@ -1,0 +1,25 @@
+<div class="main-body-container">
+    <!-- <div style="background-image: url(../imgs/Background.jpeg);"> -->
+        <header class="main-header">
+            <div class="logo">
+                <img src="../../assets/imgs/Logo.png" class="logo" alt="MexBros">
+            </div>
+            <span class="logo-text">
+                Welcome to MexBros.com!
+            </span>
+        </header>
+        <section class="main-container">
+            <div>
+                <form class="contact-form">
+                  <input placeholder="Username" type="text" id="username" class="contact-input">
+                  <input placeholder="Password" type="password" id="password" class="contact-input">
+                  <button onclick="login.login()" [routerLink]="''" class=" btn btn-success submit-button" type="button">Login</button>
+                  <span id="error-box" class="error-message">Error Here</span>
+                </form>
+              </div>
+        </section>
+    <footer class="main-footer">
+        <span class="footer-text">Copyright (C) 2021. Created by Tyler Solley, Octavio Campos, and Estevan Romero.</span>
+    </footer>
+    <!-- <script type="text/javascript" src="./login.js"></script> -->
+</div>
