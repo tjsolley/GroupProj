@@ -95,6 +95,9 @@ a {
   color: green;
 }
 
+.description {
+  text-align: center;
+}
 
 .main-header {
   height: 75px;
