@@ -1,0 +1,34 @@
+.main-container {
+    height: calc(100vh - 150px);
+    margin: 0px auto;
+    overflow: contain;
+  }
+
+.container {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+    font-size: 30px;
+    color: beige;
+    font-weight: bold;
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.product-image {
+    width: 640px;
+    height: 480px;
+}
+
+
